@@ -47,10 +47,10 @@
   color: #d63384;
 }
 
-.conteudo-principal div div p{
-  line-height: 200%;
+table tb td img{
+  width: 25px;
+  height: 25px;
 }
-
 
 /* forms.html */
 .input-focus:focus, .button-focus:hover{
@@ -69,3 +69,21 @@ text-purple{
 .bg-magenta{
   background-color: #d63384;
 }
+
+/* modificações de texto - index.html */
+.conteudo-principal div div p{
+  line-height: 200%;
+}
+
+.conteudo-principal i{
+  text-transform: uppercase;
+}
+
+/* desbilitando underline dos links de redes sociais do footer - index.html */
+#socialMedia a{
+  text-decoration: none;
+}
+
+
+
+
