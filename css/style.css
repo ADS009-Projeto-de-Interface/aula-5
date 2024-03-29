@@ -1,0 +1,71 @@
+/* ATIVIDADE 04 -->
+/* Nesta atividade vocês deverão criar uma página .index com um menu com link para 4 páginas.
+
+/* [ ] O index e menu podem ser realizados da forma que preferir;
+/* [ ] Cada página deve ter no mínimo 10 parâmetros de texto no CSS.
+/* [ ] Aplicar em todo projeto no mínimo 5 imagens.
+/* [ ] Todas as páginas devem ter cor de Background diferentes.
+
+/* [ ] Vocês devem enviar: 5 arquivos html, 5 imagens, 1 arquivo CSS.
+
+/* [ ] Não enviar pasta compactada.
+/* [ ] Não utilizar Lorem Ipsum.
+/* [ ] Colocar os créditos das mídias abaixo das mesmas. */
+
+
+.rotate {
+    /* FF3.5+ */
+    -moz-transform: rotate(-90.0deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(-90.0deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-90.0deg);
+    /* IE6,IE7 */
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+    /* IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+    /* Standard */
+    transform: rotate(-90.0deg);
+  }
+
+/* index.html */
+.conteudo-principal a{
+  color: #d63384;
+}
+
+.css-seletores li{
+  list-style-type: square;
+}
+
+.css-background li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.css-pseudo-classes li{
+  color: #d63384;
+}
+
+.conteudo-principal div div p{
+  line-height: 200%;
+}
+
+
+/* forms.html */
+.input-focus:focus, .button-focus:hover{
+  background-color: #7F12F9 !important;
+  color: #ffffff !important;
+}
+
+.purple-primary{
+  background-color: #7F12F9 !important;
+}
+
+text-purple{
+  color: #7F12F9 !important;
+}
+
+.bg-magenta{
+  background-color: #d63384;
+}
